@@ -1,4 +1,4 @@
-package Lesson_1;
+package lesson1;
 
 class Orange extends Fruit {
     static float weight = 1.5f;

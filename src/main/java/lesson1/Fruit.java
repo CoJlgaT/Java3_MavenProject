@@ -1,4 +1,4 @@
-package Lesson_1;
+package lesson1;
 
 abstract class Fruit {
     float weight;
