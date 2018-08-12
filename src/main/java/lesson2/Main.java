@@ -21,8 +21,30 @@ public class Main {
 //        dropTableGoods();
 
 
+        String comand;
 
 
+
+        Scanner scanner = new Scanner(System.in);
+
+        comand = scanner.nextLine();
+        while(!comand.equals("exit")){
+            if (comand.startsWith("/")) {
+                System.out.println("это команда, сейчас я ее проверю");
+                processComand(comand);
+            } else {
+                System.out.println("это не команда, попробуй ещё");
+            }
+            comand = scanner.nextLine();
+        }
+
+
+    }
+
+    private static void processComand(String comand) {
+        String[] tokens;
+        String firstToken;
+        
     }
 
     private static void showTitlesFromCostRange(int fromCost, int toCost) {
@@ -33,7 +55,6 @@ public class Main {
                 while(rs.next()){
                     System.out.println(rs.getString(1));
                 }
-
 
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
