@@ -20,12 +20,9 @@ public class Main {
 //        showTitlesFromCostRange(100, 600);
 //        dropTableGoods();
 
-
         String comand;
-
-
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("введи команду (выход - exit):");
         comand = scanner.nextLine();
         while (!comand.equals("exit")) {
             if (comand.startsWith("/")) {
@@ -36,8 +33,6 @@ public class Main {
             }
             comand = scanner.nextLine();
         }
-
-
     }
 
     private static void processComand(String comand) throws SQLException {
@@ -63,7 +58,6 @@ public class Main {
     }
 
     private static void showTitlesFromCostRange(int fromCost, int toCost) {
-
         try {
             connect();
             ResultSet rs = stmt.executeQuery("SELECT title FROM goods WHERE cost BETWEEN " +
@@ -85,7 +79,6 @@ public class Main {
         }
 
     }
-
 
     private static boolean changeCostByTitle(String title, int cost) {
         try {
@@ -204,6 +197,7 @@ public class Main {
         try {
             connect();
             stmt.executeUpdate("DELETE FROM goods");
+
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -226,7 +220,6 @@ public class Main {
     public static void disconnect() throws SQLException {
         connection.close();
     }
-
 
 }
 
