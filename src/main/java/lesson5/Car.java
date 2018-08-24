@@ -5,7 +5,7 @@ import java.util.concurrent.Semaphore;
 
 public class Car implements Runnable {
     private static int CARS_COUNT;
-    Semaphore smp = new Semaphore(CARS_COUNT/2);
+    Semaphore smp;
 CyclicBarrier cb;
 
     static {
@@ -20,12 +20,13 @@ CyclicBarrier cb;
     public int getSpeed() {
         return speed;
     }
-    public Car(Race race, int speed, CyclicBarrier cb) {
+    public Car(Race race, int speed, CyclicBarrier cb, Semaphore smp) {
         this.race = race;
         this.speed = speed;
         CARS_COUNT++;
         this.name = "Участник #" + CARS_COUNT;
         this.cb = cb;
+        this.smp = smp;
     }
     @Override
     public void run() {
@@ -40,7 +41,6 @@ CyclicBarrier cb;
         for (int i = 0; i < race.getStages().size(); i++) {
             if (race.getStages().get(i) instanceof Tunnel){
                 Tunnel temp_tunnel = (Tunnel)race.getStages().get(i);
-                System.out.println("tonnel");
                 temp_tunnel.go(this,smp);
             } else
             race.getStages().get(i).go(this);
