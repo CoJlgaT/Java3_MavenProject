@@ -5,10 +5,11 @@ import java.util.concurrent.Semaphore;
 
 public class MainClass {
     public static final int CARS_COUNT = 4;
+
     public static void main(String[] args) {
 
         CyclicBarrier cb = new CyclicBarrier(CARS_COUNT);
-        Semaphore smp = new Semaphore(CARS_COUNT/2);
+        Semaphore smp = new Semaphore(CARS_COUNT / 2);
 
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");
         Race race = new Race(new Road(60), new Tunnel(), new Road(40));
@@ -19,8 +20,6 @@ public class MainClass {
         for (int i = 0; i < cars.length; i++) {
             new Thread(cars[i]).start();
         }
-        System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка началась!!!");
-        System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка закончилась!!!");
     }
 }
 
