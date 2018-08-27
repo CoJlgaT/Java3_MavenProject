@@ -23,19 +23,6 @@ public class MainClass  {
         return output;
     }
 
-    public static void main(String[] args)  {
-//        System.out.println(Arrays.toString(task1(1,2,3,4,5,6,7)));
-//        System.out.println(Arrays.toString(task1(1,4,3,4,5,4,7)));
-//        System.out.println(Arrays.toString(task1(1,2,3,4,5,6,4)));
-//        System.out.println(Arrays.toString(task1(1,2,3,7,5,6,0)));
-
-        System.out.println(task2(1,2,3,4,5,6,7));
-        System.out.println(task2(1,4,4,4,4,1,1));
-
-        System.out.println(task2(1));
-        System.out.println(task2());
-    }
-
     public static boolean task2(int... input){
         boolean flag = false;
         for (int i = 0; i < input.length; i++) {
@@ -45,5 +32,22 @@ public class MainClass  {
         }
         return flag;
     }
+
+
+
+    public static void main(String[] args)  {
+//        System.out.println(Arrays.toString(task1(1,2,3,4,5,6,7)));
+//        System.out.println(Arrays.toString(task1(1,4,3,4,5,4,7)));
+//        System.out.println(Arrays.toString(task1(1,2,3,4,5,6,4)));
+//        System.out.println(Arrays.toString(task1(1,2,3,7,5,6,0)));
+//
+//        System.out.println(task2(1,2,3,4,5,6,7));
+//        System.out.println(task2(1,4,4,4,4,1,1));
+//
+//        System.out.println(task2(1));
+//        System.out.println(task2());
+    }
+
+
 
 }
