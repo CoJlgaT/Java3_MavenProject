@@ -16,21 +16,35 @@
       <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="68" selection-start-line="26" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="391">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTask1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestTask1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestTask1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="415">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#844#845#0" expanded="true" />
                 <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTask2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestTask2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +89,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/MainClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestTask1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTask2.java" />
       </list>
     </option>
   </component>
@@ -195,18 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTask1">
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.Main" />
-      <module name="Java3_MavenProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestTask2">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson6.MainClass" />
       <module name="Java3_MavenProject" />
@@ -214,17 +218,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.MainClass" />
-      <module name="Java3_MavenProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,13 +242,47 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestTask1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTask1.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3_MavenProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestTask1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java3_MavenProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTask2" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestTask2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java3_MavenProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTask2" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -305,19 +332,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.MainClass (1)" />
-      <item itemvalue="JUnit.TestTask1.test1" />
       <item itemvalue="JUnit.TestTask1" />
+      <item itemvalue="JUnit.TestTask2" />
+      <item itemvalue="JUnit.TestTask2.test2" />
+      <item itemvalue="JUnit.TestTask1.test7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTask1" />
-        <item itemvalue="JUnit.TestTask1.test1" />
+        <item itemvalue="JUnit.TestTask2" />
+        <item itemvalue="JUnit.TestTask1.test7" />
+        <item itemvalue="JUnit.TestTask2.test2" />
         <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="JUnit.TestTask1" />
       </list>
     </recent_temporary>
   </component>
@@ -337,17 +364,11 @@
       <workItem from="1534528535887" duration="955000" />
       <workItem from="1534780966498" duration="4959000" />
       <workItem from="1535141508778" duration="3098000" />
-      <workItem from="1535393023854" duration="3099000" />
+      <workItem from="1535393023854" duration="4200000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTask1_test1 - 2018.08.27 at 21h 47m 02s.xml">
-      <configuration name="TestTask1.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask1_test1 - 2018.08.27 at 21h 48m 11s.xml">
-      <configuration name="TestTask1.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTask1_test1 - 2018.08.27 at 21h 51m 07s.xml">
       <configuration name="TestTask1.test1" configurationId="JUnit" />
     </history-entry>
@@ -357,9 +378,30 @@
     <history-entry file="TestTask1 - 2018.08.27 at 21h 52m 53s.xml">
       <configuration name="TestTask1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTask1 - 2018.08.27 at 21h 55m 36s.xml">
+      <configuration name="TestTask1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask1 - 2018.08.27 at 21h 55m 56s.xml">
+      <configuration name="TestTask1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask2 - 2018.08.27 at 22h 07m 34s.xml">
+      <configuration name="TestTask2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask2 - 2018.08.27 at 22h 08m 09s.xml">
+      <configuration name="TestTask2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask2 - 2018.08.27 at 22h 08m 18s.xml">
+      <configuration name="TestTask2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask2_test2 - 2018.08.27 at 22h 09m 10s.xml">
+      <configuration name="TestTask2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask1_test7 - 2018.08.27 at 22h 11m 30s.xml">
+      <configuration name="TestTask1.test7" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27072000" />
+    <option name="totallyTimeSpent" value="28173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -375,11 +417,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,7 +475,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -746,19 +788,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="68" selection-start-line="26" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="391">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestTask1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="415">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#844#845#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTask2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

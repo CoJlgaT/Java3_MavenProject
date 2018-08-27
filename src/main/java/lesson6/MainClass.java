@@ -31,9 +31,9 @@ public class MainClass  {
 
         System.out.println(task2(1,2,3,4,5,6,7));
         System.out.println(task2(1,4,4,4,4,1,1));
-        System.out.println(task2());
-        System.out.println(task2(1));
 
+        System.out.println(task2(1));
+        System.out.println(task2());
     }
 
     public static boolean task2(int... input){
